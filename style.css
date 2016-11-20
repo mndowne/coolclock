@@ -1,0 +1,85 @@
+body {
+  background-color: #286ea0; }
+
+#title {
+  text-align: center;
+  color: #282d32; }
+  #title:hover {
+    color: #a0a0a0; }
+
+.box {
+  text-align: center;
+  border: solid 10px #282d32;
+  border-radius: 40px;
+  width: 500px;
+  height: 300px;
+  margin: auto; }
+  .box:hover {
+    border-color: #a0a0a0; }
+
+#mainTime {
+  color: #282d32;
+  margin: auto;
+  width: 450px;
+  font-size: 1000%; }
+  #mainTime:hover {
+    color: #a0a0a0; }
+
+#break {
+  color: #282d32;
+  position: relative;
+  bottom: 20px;
+  display: inline-block;
+  border: solid 7px #282d32;
+  border-radius: 40px;
+  width: 200px;
+  height: 110px; }
+  #break #break1 {
+    position: relative;
+    bottom: 60px;
+    font-size: 400%; }
+    #break #break1:hover {
+      color: #a0a0a0; }
+  #break p {
+    position: relative;
+    bottom: 130px;
+    font-size: 150%; }
+
+#active {
+  color: #282d32;
+  position: relative;
+  display: inline-block;
+  border: solid 7px #282d32;
+  border-radius: 40px;
+  width: 200px;
+  height: 110px;
+  bottom: 20px; }
+  #active #active1 {
+    position: relative;
+    bottom: 60px;
+    font-size: 400%; }
+    #active #active1:hover {
+      color: #a0a0a0; }
+  #active p {
+    position: relative;
+    bottom: 130px;
+    font-size: 150%; }
+
+#start {
+  text-align: center;
+  font-size: 300%;
+  border: solid 7px #282d32;
+  width: 200px;
+  margin: auto;
+  border-radius: 40px;
+  color: #282d32; }
+  #start:hover {
+    color: #a0a0a0;
+    cursor: pointer; }
+
+#bDown, #bUp, #aUp, #aDown {
+  cursor: pointer; }
+  #bDown:hover, #bUp:hover, #aUp:hover, #aDown:hover {
+    color: #a0a0a0; }
+
+/*# sourceMappingURL=style.css.map */
